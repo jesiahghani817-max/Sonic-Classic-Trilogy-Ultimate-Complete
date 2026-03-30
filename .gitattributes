@@ -1,0 +1,42 @@
+# ─────────────────────────────────────────────────────────────────────
+#  Sonic Classic Trilogy - Ultimate Complete
+#  Git Attributes — Binary ROM File Handling
+#  Created by Esrael Neto © 2026
+# ─────────────────────────────────────────────────────────────────────
+
+# Sega Mega Drive / Genesis ROM files — treat as binary
+*.bin       binary
+*.BIN       binary
+
+# Patch / IPS files
+*.ips       binary
+*.IPS       binary
+*.bps       binary
+*.BPS       binary
+*.ups       binary
+*.UPS       binary
+*.xdelta    binary
+*.vcdiff    binary
+
+# Emulator state files
+*.gs0       binary
+*.gs1       binary
+*.gs2       binary
+*.gs3       binary
+*.gs4       binary
+*.gs5       binary
+*.gs6       binary
+*.gs7       binary
+*.gs8       binary
+*.gs9       binary
+*.gst       binary
+*.sav       binary
+*.srm       binary
+
+# Text / document files — normalize line endings
+*.md        text eol=lf
+*.txt       text eol=lf
+*.py        text eol=lf
+*.json      text eol=lf
+*.gitattributes text eol=lf
+*.gitignore text eol=lf
